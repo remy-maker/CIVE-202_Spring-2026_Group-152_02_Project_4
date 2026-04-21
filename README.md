@@ -38,10 +38,10 @@ The respository is organized as follows:
  Contains Scope of Work outlining project's goals and defines the tasks to conducting our risk analysis study.
 
 -`WRITTEN REPORT File`
-   Contains detailed report on the background of the NDOT project and objectives. Detailed explanations of methods used to convert excel function to python code. As well as results on the four chosen mix designs, highlighting diffences in results. And refrences to NDOT or other refrences used. 
+   Contains detailed report on the background of the Risk Averse, LLC: Analysis of the Risk of Natural Disasters project. Summarizing the findings in the code that can be reused in the future. This report will contain: Scope of Work, Methodology to how we defined risk in our data analysis so results are reproducible, written comparison of our risk definitions to the NRI definitions. And results from our python code. 
 
 -`READ.md`
- Documentation and user guide for this project.
+ Documentation and user guide for this project. 
 
  ---
 
