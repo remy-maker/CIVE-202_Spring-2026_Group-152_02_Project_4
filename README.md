@@ -34,7 +34,7 @@ The respository is organized as follows:
 -`GANTT CHART File`
  Contains Gantt Chart results. 
 
--`CIVE202_Spring2026_Group2_Project4_SOW.docx/`
+-`CIVE202_Spring2026_Group2_Project4_SOW.docx`
  Contains Scope of Work outlining project's goals and defines the tasks to conducting our risk analysis study.
 
 -`WRITTEN REPORT File`
