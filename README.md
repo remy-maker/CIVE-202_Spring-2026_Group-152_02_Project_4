@@ -28,7 +28,7 @@ The respository is organized as follows:
 -`CIVE 202_Spring 2026_152-Group2_Project 4_Python Code.ipynb`
  Documents the code used to generate our solution.
 
--`ACD File`
+-`CIVE 202_Spring 2026_152-Group2_Project 4_AnnotatedCodeDocument.docx`
  Includes a line-by-line explanation of code. 
  
 -`CIVE202_Spring2026_152-Group 2_Project4_Gantt Chart.xlsx`
