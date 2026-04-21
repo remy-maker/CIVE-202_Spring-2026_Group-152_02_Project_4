@@ -37,7 +37,7 @@ The respository is organized as follows:
 -`CIVE202_Spring2026_Group2_Project4_SOW.docx`
  Contains Scope of Work outlining project's goals and defines the tasks to conducting our risk analysis study.
 
--`WRITTEN REPORT File`
+-`CIVE 202_Spring 2026_Group 2_Project #4_Written Document`
    Contains detailed report on the background of the Risk Averse, LLC: Analysis of the Risk of Natural Disasters project. Summarizing the findings in the code that can be reused in the future. This report will contain: Scope of Work, Methodology to how we defined risk in our data analysis so results are reproducible, written comparison of our risk definitions to the NRI definitions. And results from our python code. 
 
 -`READ.md`
