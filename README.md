@@ -109,7 +109,6 @@ The respository is organized as follows:
 - Both models were compared by evaluating differences in percentile rankings and categorical classifications. This allowed identification of potential bias in how risk is assigned across regions.
 
 
-</> 
 
 ## Results Summary
 
