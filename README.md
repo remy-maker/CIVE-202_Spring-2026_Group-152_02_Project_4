@@ -57,45 +57,80 @@ The respository is organized as follows:
    - Matplotlib
    - Geopandas
 
-</> 
 
 ## How to Run the Project (User Guide) 
 
 ### Step 1: Data Organization and Cleaning
-1. 
+1. Load raw NRI and SVI datasets into the notebook
+2. Clean data by handling missing values 
+3. Standardize column names and formats
+4. Merge datasets using Census Tract FIPS codes
 
 ### Step 2: Research and Development
-1. 
+1. Review NRI methodology 
+2. Replicate the NRI risk calculation logic
+3. Develop an alternative risk definition using modified weighting or additional factors
 
 ### Step 3: Sensitivity Analysis and Comparison
-1.
+1. Compute both NRI risk scores and alternative risk scores
+2. Compare rankings and classifications
+3. Identify differences that indicate potential categorical bias
 
 ### Step 4: Visualization and Mapping
-1.
+1. Generate summary tables 
+2. Create comparison plots 
+3. Use GeoPandas to map Census Tract-level risk for each state
 
 ### Step 5: Interpretation and Report 
-1. 
+1. Interpret results in the context of risk distribution
+2. Evaluate how different definitions impact communities
+3. Discuss implications for policy, funding, and disaster mitigation
 
-
-</>
 
 ## Methodology
+1. Data Collection and Integration
+   
+- NRI Census Tract-level data and CDC Social Vulnerability Index data were collected and merged using FIPS codes. Metadata files were used to interpret variable definitions and ensure consistency.
 
+2. Data Cleaning and Preprocessing
+
+- Missing and placeholder values (e.g., -999, -9999) were converted to NaN and handled appropriately. Variables were normalized where necessary to allow comparison across datasets.
+
+3. Risk Model Development
+
+- NRI Risk Model: Based on Expected Annual Loss (EAL), Social Vulnerability (SVI), and Community Resilience
+- Alternative Risk Model: Developed by adjusting weights of key variables and emphasizing social vulnerability impacts
+
+4. Sensitivity Analysis
+  
+- Both models were compared by evaluating differences in percentile rankings and categorical classifications. This allowed identification of potential bias in how risk is assigned across regions.
 
 
 </> 
 
 ## Results Summary
 
+- The alternative risk model produced noticeable shifts in risk rankings, particularly in areas with high social vulnerability
+- Urban regions (California) tended to show higher variability in risk depending on the model used
+- Rural regions (Iowa) showed more stable risk classifications across models
+Differences between models highlight how weighting choices can significantly influence perceived risk
+
+Summary tables and visualizations demonstrate:
+- Distribution of risk scores across states
+- Comparison of mean and maximum risk values
+- Spatial variation in risk using geospatial mapping
 
 
-</>
 
 ## Conclusion
+This project demonstrates that risk classification is highly sensitive to how risk is defined and calculated. The comparison between the NRI methodology and the alternative model reveals that:
+- Risk is not purely objective and can be influenced by model assumptions
+- Social vulnerability plays a critical role in shaping risk outcomes
+- Different definitions of risk can lead to different policy and funding decisions
+
+Understanding these differences is essential for ensuring fair and effective allocation of resources for disaster mitigation. Future work could expand this analysis to additional states and incorporate more refined weighting strategies.
 
  
-
-</> 
 
 Group 5
 - Riley Ibero
