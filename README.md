@@ -25,7 +25,7 @@ The respository is organized as follows:
 -`(CLEAN Files)`
   The clean data files used in the Python code file for each of our identified states at the Census Tract Level and the metadate from the NRI website.
   
--`(JUPYTER NOTEBOOK Files`
+-`CIVE 202_Spring 2026_152-Group2_Project 4_Python Code.ipynb`
  Documents the code used to generate our solution.
 
 -`ACD File`
