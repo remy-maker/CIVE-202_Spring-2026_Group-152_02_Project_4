@@ -31,7 +31,7 @@ The respository is organized as follows:
 -`ACD File`
  Includes a line-by-line explanation of code. 
  
--`GANTT CHART File`
+-`CIVE202_Spring2026_152-Group 2_Project4_Gantt Chart.xlsx`
  Contains Gantt Chart results. 
 
 -`CIVE202_Spring2026_Group2_Project4_SOW.docx`
