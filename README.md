@@ -33,7 +33,10 @@ The respository is organized as follows:
  
 -`CIVE202_Spring2026_152-Group 2_Project4_Gantt Chart.xlsx`
  Contains Gantt Chart results. 
-
+ 
+-`Engineer Timetable`
+ Contains Engineer Timetable. Showing time and tasks worked on by each team member. 
+ 
 -`CIVE202_Spring2026_Group2_Project4_SOW.docx`
  Contains Scope of Work outlining project's goals and defines the tasks to conducting our risk analysis study.
 
