@@ -62,32 +62,11 @@ The respository is organized as follows:
 
 
 ## How to Run the Project (User Guide) 
+- Download all dat in .csv files
+- Make sure you have all required Libraries downloaded
+- Run each section in order
 
-### Step 1: Data Organization and Cleaning
-1. Load raw NRI and SVI datasets into the notebook
-2. Clean data by handling missing values 
-3. Standardize column names and formats
-4. Merge datasets using Census Tract FIPS codes
 
-### Step 2: Research and Development
-1. Review NRI methodology 
-2. Replicate the NRI risk calculation logic
-3. Develop an alternative risk definition using modified weighting or additional factors
-
-### Step 3: Sensitivity Analysis and Comparison
-1. Compute both NRI risk scores and alternative risk scores
-2. Compare rankings and classifications
-3. Identify differences that indicate potential categorical bias
-
-### Step 4: Visualization and Mapping
-1. Generate summary tables 
-2. Create comparison plots 
-3. Use GeoPandas to map Census Tract-level risk for each state
-
-### Step 5: Interpretation and Report 
-1. Interpret results in the context of risk distribution
-2. Evaluate how different definitions impact communities
-3. Discuss implications for policy, funding, and disaster mitigation
 
 
 ## Methodology
